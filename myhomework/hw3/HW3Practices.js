@@ -10,5 +10,5 @@ function min(a, b){
   }
 }
 function countChar(str, c){
-  return str.length, c
+// TODO: Finish for homework  
 }
