@@ -1,0 +1,9 @@
+function product(a,b){
+  return a*b;
+}
+function min(a, b){
+  console.log(Math.min(a, b))
+}
+function countChar(str, c){
+  return str.length, c
+}
