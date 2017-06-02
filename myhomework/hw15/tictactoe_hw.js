@@ -14,7 +14,7 @@ function makeMove(grid,turn,row,col){ //text field
       else {return false}
     }
     else {return false}
-    turn + 1;
+    turn++;
   }
   else if (turn % 2 == 1){
     if (row <= grid.length - 1){
@@ -24,10 +24,10 @@ function makeMove(grid,turn,row,col){ //text field
       else {return false}
     }
     else {return false}
-    turn + 1;
+    turn++;
   }
 }
-
+/*
 // Check row, col, diagonal. Return null if no winner. 2 winners? (Whichever won first)
 function checkWinner(grid){
   for (var i = 0, i <= grid.length, i++){
@@ -47,7 +47,7 @@ function checkWinner(grid){
     }
   }
 }
-
+*/
 function printGrid(grid){
   for (var i = 0; i < 2; i++){
     console.log(grid[i][0] + ' # ' + grid[i][1] + ' # ' + grid[i][2] +'\n#########');

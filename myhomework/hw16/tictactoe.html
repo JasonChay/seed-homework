@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>
+    Tic Tac Toe
+  </title>
+</head>
+<body>
+  <form>
+    Row Num
+    <input type="number" id="rownum" value="0" min="0" max="2">
+    Col Num
+    <input type="number" id="colnum" value="0" min="0" max="2">
+    <input type="button" name="button" value="Make Move" onclick="browserMakeMove()">
+  </form>
+  <br>
+  <div id ="turn">
+  </div>
+  <pre id="grid">
+  </pre>
+  <script src="tictactoe.js"></script>
+</body>
+</html>
